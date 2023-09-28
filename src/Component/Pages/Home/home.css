@@ -8,13 +8,19 @@
     height:10rem;
     margin:auto;
     width:90%;
+    align-items: center;
 
 }
 .ad-explore{
     background-color: #d9d9d9;
-    height: 10rem;  
+    /* height: 10rem;  
+    width: 90%;
+    margin: 50px; */
     width: 90%;
     margin: auto;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .ad-idea{
    background-color: #d9d9d9;
@@ -104,9 +110,9 @@
 .pile{
    align-items: center;
    padding-left: 60px;
-   padding-top: 40px;
-  
+   padding-top: 40px;  
 }
+
 
 /* Style the stars based on their state (filled or empty) */
 .filled {
@@ -119,12 +125,19 @@
 }
 @media only screen and (min-width:250px) and (max-width:840px) {
    .addvertise {
-      height: 80px;
+      height: 200px;
       background-color: #d9d9d9;
-      height: 10rem;
+      /* height: 10rem; */
       padding-top: 10%;
       margin: auto;
       width: 88%;
+      align-content: center;
+  }
+
+  .pile{
+   align-content: center;
+   padding-left: 60px;
+   margin-top: -20px;
   }
    
   .comments-heading {
@@ -352,6 +365,11 @@ style {
    font-size: 1.5rem;
 }
 
+.pi{
+   align-content: center;
+   padding-left: 60px;
+   margin-top: -20px;
+}
 .explore-more-container h2{
    font-size: 1.4rem;
 }

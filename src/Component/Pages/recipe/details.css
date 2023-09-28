@@ -35,14 +35,23 @@
 .ad-container{
     height: 80vh;
     width: 20rem;
-    background-color: white;
+    background-size: contain;
     text-align: center;
+    color: white;
+    background-image: url(../../../Assets/image/ad.jfif);
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+     
 }
 .ad-wrapper{
-    position: fixed;
+    position: sticky;
     top: 10rem;
     height: 70vh;
     width: 100%;
+    text-align: center;
+    background-size: contain;
+   padding-bottom: 2rem;
+    
     
 }
 

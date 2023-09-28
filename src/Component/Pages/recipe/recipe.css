@@ -183,7 +183,7 @@
     border-radius: 1px solid black;
     height: 80vh;
     width: 20rem;
-    background-color: white;
+    background-size: contain;
 }
 
 

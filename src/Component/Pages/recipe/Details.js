@@ -208,8 +208,8 @@ const Details = () => {
           <div className="ad-container">
             <div className="social-icons"></div>
             <div className="ad-wrapper ad">
-              <h1>Advertisement</h1>
-              {/* <img src={ad} alt="adverise" /> */}
+           
+              
             </div>
           </div>
         </div>

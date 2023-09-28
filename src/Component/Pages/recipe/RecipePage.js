@@ -94,7 +94,7 @@ const RecipePage = () => {
                 )}
               </div>
               <div className="ad-container">
-                <h1 class="main">Advertisement</h1>
+                {/* <h1 class="main">Advertisement</h1> */}
               </div>
             </div>
             <SearchRecipe/>
